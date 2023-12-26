@@ -8,8 +8,8 @@ const Footer = () => {
                 <div className='flex flex-col gap-x-3'>
                     <div className='flex flex-col justify-center items-center w-52'>
                         <img src="logo.png" alt="" className='w-16'/>
-                        <h3 className='text-white text-4xl'>INNOVATE</h3>
-                        <span className='text-[#f2c574] text-2xl tracking-[0.5em]'>LAW FIRM</span>
+                        <h3 className='text-white text-4xl md:text-sm'>INNOVATE</h3>
+                        <span className='text-[#f2c574] text-2xl md:text-base tracking-[0.5em]'>LAW FIRM</span>
                     </div>
                     <p className='text-white mt-8'>Lorem ipsum dolor sit amet, consectetur adipisicing <br /> elit. Eaque voluptate  libero totam! Tempore, quo totam!</p>
                 </div>
@@ -108,15 +108,15 @@ const Footer = () => {
 
         <hr className='my-10 border-[#3b3839]'/>
 
-        <div className='flex justify-between items-center px-[8rem] md:px-[1rem]'>
+        <div className='flex md:gap-y-3 md:flex-col-reverse justify-between items-center px-[8rem] md:px-[1rem]'>
             <small className='text-white text-base'>
                 Copyright@ INNOVATIVE lAW FIRM
             </small>
-            <small className='text-white text-base'>Design & Developed by <span className='font-bold'>Softqube Technologies</span>Powered by <span className='font-bold'>Lion's Share Creative</span></small>
+            <small className='text-white text-base md:text-center'>Design & Developed by <span className='font-bold'>NextTechNexus</span></small>
         </div>
         
         {/* side arrow key by the right corner */}
-        <button className='bg-white w-16 h-16 rounded-full absolute bottom-14 right-10 flex justify-center items-center'>
+        <button className='bg-white w-16 h-16 rounded-full absolute bottom-14 right-10 flex justify-center items-center md:bottom-32 md:right-4'>
         <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24"><path fill="currentColor" d="M11 18V8.8l-3.6 3.6L6 11l6-6l6 6l-1.4 1.4L13 8.8V18h-2Z"></path></svg>
         </button>
     </footer>
