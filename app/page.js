@@ -6,6 +6,7 @@ import Cards from './components/Cards'
 import ContactUs from './components/ContactUs'
 import Call from './components/Call'
 import Footer from './components/Footer'
+import ChatBot from './components/ChatBot'
 export default function Home() {
   return (
     <div className=''>
@@ -15,6 +16,7 @@ export default function Home() {
     <Cards/>
     <Call/>
     <ContactUs/>
+    <ChatBot/>
     <Footer/>
       </main>
     </div>
