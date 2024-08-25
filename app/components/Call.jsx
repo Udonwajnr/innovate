@@ -14,7 +14,7 @@ const Call = () => {
                 
                 <div className='flex flex-col md:justify-center md:items-center'>
                     <span className='text-[#f2c574] text-[50px] md:text-xl'>
-                        +1(907)xxx-xxxx
+                        08020895452
                     </span>
                     <span className='font-bold text-lg'>
                         FEEL FREE TO CALL US
